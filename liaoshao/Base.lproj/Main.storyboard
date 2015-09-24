@@ -80,9 +80,11 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="bossMoney" destination="fug-qO-HDn" id="ue3-l5-8g9"/>
                         <outlet property="image1" destination="0LK-Wb-Mx1" id="rhp-PP-MaF"/>
                         <outlet property="image2" destination="Owf-xt-PQL" id="d39-mR-CFu"/>
                         <outlet property="image3" destination="T22-KI-DWP" id="D76-Sc-mTX"/>
+                        <outlet property="playMoney" destination="4FK-hh-DVx" id="yXI-GM-V36"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

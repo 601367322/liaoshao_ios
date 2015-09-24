@@ -20,6 +20,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var image3: UIImageView!
     
+    @IBOutlet weak var playMoney: UILabel!
+    
+    @IBOutlet weak var bossMoney: UILabel!
+    
     var selectType = SelectType.Big
     
     var timer : NSTimer?
@@ -30,21 +34,39 @@ class ViewController: UIViewController {
     var finalNumber2:Int = 0
     var finalNumber3:Int = 0
     
+    var playerNumber = 1000
+    var bossNumber = 1000
+    
     func judgeResult(){
         switch(selectType){
         case .Big:
             if finalNumber1 + finalNumber3 + finalNumber2 > 11 {
-                
+                playerNumber += 30
+                bossNumber -= 30
+            }else{
+                playerNumber -= 30
+                bossNumber += 30
             }
         case .Small:
             if finalNumber1 + finalNumber3 + finalNumber2 <= 11 {
-                
+                playerNumber += 30
+                bossNumber -= 30
+            }else{
+                playerNumber -= 30
+                bossNumber += 30
             }
         case .Baozi:
             if finalNumber1 == finalNumber3 && finalNumber3 == finalNumber2 {
-                
+                playerNumber += 300
+                bossNumber -= 300
+            }else{
+                playerNumber -= 300
+                bossNumber += 300
             }
         }
+        
+        playMoney.text = String(playerNumber)
+        bossMoney.text = String(bossNumber)
     }
     
     func changeImage(){
@@ -86,9 +108,15 @@ class ViewController: UIViewController {
     
     @IBAction func buySmall(sender: AnyObject) {
                 selectType = SelectType.Small
+        timer?.invalidate()
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "changeImage", userInfo: "", repeats: true)
+
     }
     @IBAction func buyBaozi(sender: AnyObject) {
                 selectType = SelectType.Baozi
+        timer?.invalidate()
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "changeImage", userInfo: "", repeats: true)
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
