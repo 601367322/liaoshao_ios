@@ -36,19 +36,16 @@ class ViewController: UIViewController {
             if finalNumber1 + finalNumber3 + finalNumber2 > 11 {
                 
             }
-            break;
         case .Small:
-            if finalNumber1 + finalNumber3 + finalNumber2 > 11 {
+            if finalNumber1 + finalNumber3 + finalNumber2 <= 11 {
                 
             }
         case .Baozi:
-            if finalNumber1 == finalNumber3 == finalNumber2 {
+            if finalNumber1 == finalNumber3 && finalNumber3 == finalNumber2 {
                 
             }
-        default:
-            break
-            
-        }}
+        }
+    }
     
     func changeImage(){
         
