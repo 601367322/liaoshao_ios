@@ -13,6 +13,13 @@
 		DD3B1BC31BB3E09300CE27B8 /* liaoshao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD3B1BC11BB3E09300CE27B8 /* liaoshao.xcdatamodeld */; };
 		DD3B1BC51BB3E09300CE27B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BC41BB3E09300CE27B8 /* Assets.xcassets */; };
 		DD3B1BC81BB3E09300CE27B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BC61BB3E09300CE27B8 /* LaunchScreen.storyboard */; };
+		DD3B1BD21BB3E34900CE27B8 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD11BB3E34900CE27B8 /* bg.jpg */; };
+		DD3B1BD91BB3ED2C00CE27B8 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD31BB3ED2C00CE27B8 /* image1.jpg */; };
+		DD3B1BDA1BB3ED2C00CE27B8 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD41BB3ED2C00CE27B8 /* image2.jpg */; };
+		DD3B1BDB1BB3ED2C00CE27B8 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD51BB3ED2C00CE27B8 /* image3.jpg */; };
+		DD3B1BDC1BB3ED2C00CE27B8 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD61BB3ED2C00CE27B8 /* image4.jpg */; };
+		DD3B1BDD1BB3ED2C00CE27B8 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD71BB3ED2C00CE27B8 /* image5.jpg */; };
+		DD3B1BDE1BB3ED2C00CE27B8 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD3B1BD81BB3ED2C00CE27B8 /* image6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		DD3B1BC41BB3E09300CE27B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3B1BC71BB3E09300CE27B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3B1BC91BB3E09300CE27B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3B1BD11BB3E34900CE27B8 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		DD3B1BD31BB3ED2C00CE27B8 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		DD3B1BD41BB3ED2C00CE27B8 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		DD3B1BD51BB3ED2C00CE27B8 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		DD3B1BD61BB3ED2C00CE27B8 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		DD3B1BD71BB3ED2C00CE27B8 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		DD3B1BD81BB3ED2C00CE27B8 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				DD3B1BC61BB3E09300CE27B8 /* LaunchScreen.storyboard */,
 				DD3B1BC91BB3E09300CE27B8 /* Info.plist */,
 				DD3B1BC11BB3E09300CE27B8 /* liaoshao.xcdatamodeld */,
+				DD3B1BD11BB3E34900CE27B8 /* bg.jpg */,
+				DD3B1BD31BB3ED2C00CE27B8 /* image1.jpg */,
+				DD3B1BD41BB3ED2C00CE27B8 /* image2.jpg */,
+				DD3B1BD51BB3ED2C00CE27B8 /* image3.jpg */,
+				DD3B1BD61BB3ED2C00CE27B8 /* image4.jpg */,
+				DD3B1BD71BB3ED2C00CE27B8 /* image5.jpg */,
+				DD3B1BD81BB3ED2C00CE27B8 /* image6.jpg */,
 			);
 			path = liaoshao;
 			sourceTree = "<group>";
@@ -124,8 +145,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3B1BDC1BB3ED2C00CE27B8 /* image4.jpg in Resources */,
+				DD3B1BDD1BB3ED2C00CE27B8 /* image5.jpg in Resources */,
 				DD3B1BC81BB3E09300CE27B8 /* LaunchScreen.storyboard in Resources */,
+				DD3B1BD91BB3ED2C00CE27B8 /* image1.jpg in Resources */,
 				DD3B1BC51BB3E09300CE27B8 /* Assets.xcassets in Resources */,
+				DD3B1BD21BB3E34900CE27B8 /* bg.jpg in Resources */,
+				DD3B1BDE1BB3ED2C00CE27B8 /* image6.jpg in Resources */,
+				DD3B1BDA1BB3ED2C00CE27B8 /* image2.jpg in Resources */,
+				DD3B1BDB1BB3ED2C00CE27B8 /* image3.jpg in Resources */,
 				DD3B1BC01BB3E09300CE27B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
